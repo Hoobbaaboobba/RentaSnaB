@@ -1,0 +1,468 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: "Jost";
+}
+
+.topnav {
+    width: 100%;
+    height: 477px;
+    filter: grayscale(1);
+    background: url(images/BackNavbar.jpg);
+}
+
+.header {
+    background-color: linear-gradient(black, white);
+    width: 100%;
+    height: 143px;
+    backdrop-filter: blur(4px);
+}
+
+.line {
+    position: absolute;
+    width: 90%;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.8);
+    margin-left: 5%;
+}
+
+.top_top_nav {
+    width: 100%;
+    height: 44px;
+}
+
+.contactUs {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+    right: 5%;
+    font-size: 16px;  
+}
+
+.top_top_nav {
+    color: white;
+}
+
+#number {
+    padding-left: 15px;
+}
+
+.top_down_nav {
+    width: 100%;
+    height: 99px;
+    
+}
+
+#logo {
+    cursor: pointer;
+    margin-top: 7px;
+    margin-left: 5%;
+}
+
+.top_down_nav ul {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    top: 70px;
+    right: 11.5%;
+}
+
+.top_down_nav ul li {
+    cursor: pointer;
+    list-style: none;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+#glass {
+    cursor: pointer;
+    position: absolute;
+    top: 80px;
+    right: 9%;
+}
+
+.buttons {
+    position: absolute;
+    top: 340px;
+    color: white;
+    display: flex;
+    width: 80%;
+    height: 40px;
+    margin-left: 10%;
+
+}
+
+.contacts {
+    cursor: pointer;
+    background: #F9A825;
+    font-size: 24px;
+    color: white;
+    border: none;
+    width: 50px;
+}
+
+.buttons p {
+    cursor: pointer;
+    padding-top: 7px;
+    padding-left: 25px;
+    width: 180px;
+    background: rgba(29, 29, 29, 0.6);
+}
+
+.contacts svg {
+    padding-top: 5px
+}
+
+.ourlocation {
+    position: absolute;
+    cursor: pointer;
+    background: #F9A825;
+    font-size: 24px;
+    color: white;
+    border: none;
+    width: 50px;
+    height: 40px;
+    right: 0%;
+}
+
+#position {
+    height: 40px;
+    position: absolute;
+    right: 3.5%;
+}
+
+.advantages {
+    position: absolute;
+    display: flex;
+    background: white;
+    top: 378px;
+    left: 10%;
+    width: 80%;
+    height: 343px;
+}
+
+#project {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    height: 341px;
+    padding-left: 7%;
+    padding-top: 30px;
+}
+
+#orangeline1 {
+    position: absolute;
+    left: 0;
+    margin-top: 20px;
+    background: #F9A825;
+    width: 3px;
+    height: 202px;
+}
+
+#orangeline2 {
+    position: absolute;
+    left: 30%;
+    margin-top: 20px;
+    background: #F9A825;
+    width: 3px;
+    height: 245px;
+}
+
+#clients {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 341px;
+    padding-left: 14%;
+    padding-top: 38px;
+}
+
+#revenue {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 341px;
+    padding-left: 14%;
+    padding-top: 38px;
+}
+
+#orangeline3 {
+    position: absolute;
+    left: 60%;
+    margin-top: 20px;
+    background: #F9A825;
+    width: 3px;
+    height: 250px;
+}
+
+.information {
+    position: absolute;
+    display: flex;
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 250px;
+}
+
+#first #list1 {
+    position: absolute;
+    font-size: 14px;
+    font-weight: bold;
+    top: 0;
+    left: 7%;
+}
+
+#first #list2 {
+    position: absolute;
+    top: 20px;
+    font-size: 12px;
+    left: 7%;
+    width: 18%;
+}
+
+#orangeline4 {
+    width: 250px;
+    height: 3px;
+    background: #F9A825;
+    margin-top: 14px;
+    margin-left: 20px;
+}
+
+#second #list3 {
+    position: absolute;
+    font-size: 14px;
+    font-weight: bold;
+    top: 0;
+    left: 33%;
+}
+
+#second #list4 {
+    position: absolute;
+    top: 20px;
+    font-size: 12px;
+    left: 33%;
+    width: 15%;
+}
+
+#orangeline5 {
+    width: 230px;
+    height: 3px;
+    background: #F9A825;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+#second svg {
+    margin-left: 30px;
+}
+
+#third #list5 {
+    position: absolute;
+    font-size: 14px;
+    font-weight: bold;
+    top: 0;
+    left: 56%;
+}
+
+#third #list6 {
+    position: absolute;
+    top: 25px;
+    font-size: 12px;
+    left: 56%;
+    width: 20%;
+}
+
+#orangeline6 {
+    width: 220px;
+    height: 3px;
+    background: #F9A825;
+    margin-top: 22px;
+    margin-left: 50px;
+}
+
+#third svg {
+    margin-left: 20px;
+}
+
+#fourth #list7 {
+    position: absolute;
+    font-size: 14px;
+    font-weight: bold;
+    top: 0;
+    left: 80%;
+}
+
+#fourth #list8 {
+    position: absolute;
+    top: 25px;
+    font-size: 12px;
+    left: 80%;
+    width: 20%;
+}
+
+#orangeline7 {
+    width: 240px;
+    height: 3px;
+    background: #F9A825;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+#fourth svg {
+    margin-left: 30px;
+}
+
+.btn-15 {
+    border: none;
+   color: #fff;
+   z-index: 1;
+}
+
+.btn-15 a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.btn-15:after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    background: #e0e5ec;
+    transition: all 0.3s ease;
+}
+
+.btn-15:hover {
+}
+
+.btn-15:hover:after {
+   left: 0;
+   width: 100%;
+}
+
+.btn-15:active {
+   top: 2px;
+}
+ 
+.custom-btn {
+    width: 100px;
+    height: 50px;
+    padding: 10px 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+}
+
+
+.btn-14 {
+    position: absolute;
+    top: 70px;
+    right: 8.8%;
+    border: none;
+    background: transparent;
+    color: #fff;
+    z-index: 1;
+}
+
+.btn-14:after {
+   position: absolute;
+   content: "";
+   width: 100%;
+   height: 0;
+   top: 0;
+   left: 0;
+   z-index: -1;
+   background: rgba(255, 255, 255, 0.753);
+   transition: all 0.3s ease;
+}
+
+.btn-14:hover:after {
+   top: auto;
+   bottom: 0;
+   height: 100%;
+}
+
+.btn-14:active {
+   top: 2px;
+}
+
+#cart {
+    position: absolute;
+    right: 5%;
+    top: 74px;
+    cursor: pointer;
+}
+
+.search-box{
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    right: 8.8%;
+    top: 70px;
+}
+
+.input-search{
+    height: 50px;
+    width: 50px;
+    border-style: none;
+    padding: 10px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    outline: none;
+    border-radius: 25px;
+    transition: all .5s ease-in-out;
+    background-color: #22a6b3;
+    padding-right: 40px;
+    color:#fff;
+}
+ 
+.input-search::placeholder{
+    color:rgba(255,255,255,.5);
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: 100;
+}
+
+.btn-search{
+    width: 50px;
+    height: 50px;
+    border-style: none;
+    font-size: 20px;
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+    border-radius: 50%;
+    position: absolute;
+    right: 0px;
+    color:#ffffff ;
+    background-color:transparent;
+    pointer-events: painted;  
+}
+
+.btn-search:focus ~ .input-search{
+    width: 300px;
+    border-radius: 0px;
+    background-color: transparent;
+    border-bottom:1px solid rgba(255,255,255,.5);
+    transition: all 500ms cubic-bezier(0, 0.110, 0.35, 2);
+}
+
+.input-search:focus{
+    width: 300px;
+    border-radius: 0px;
+    background-color: transparent;
+    border-bottom:1px solid rgba(255,255,255,.5);
+    transition: all 500ms cubic-bezier(0, 0.110, 0.35, 2);
+}
+  
